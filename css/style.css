@@ -200,13 +200,13 @@ img{
     background-color: transparent;
     line-height: 1.5;
     cursor: pointer;
-    border-radius: 30px;
+    border-radius: 0px;
     transition: all 0.3s ease;
     display: inline-block;
     border: none;
 }
 .btn-1:after{
-    border-radius: 30px;
+    border-radius: 0px;
 }
 .effect-wrap .effect{
     position: absolute;
@@ -336,6 +336,7 @@ img{
     margin-bottom: 60px;
 }
 .section-title h2{
+    margin-top: 20px !important;
     display: inline-block;
     font-size: 30px;
     font-weight: 700;
@@ -381,12 +382,12 @@ img{
     display: flex;
     align-items: center;
     cursor: pointer;
-    border-radius: 50%;
+    border-radius: 0%;
     justify-content: center;
     transition: all 0.3s ease;
 }
 .header .hamburger-btn:after{
-    border-radius: 50%;
+    border-radius: 0%;
 }
 
 .header .hamburger-btn span{
@@ -497,14 +498,14 @@ img{
     color: var(--text-black-600);
     padding: 5px 30px;
     text-transform: uppercase;
-    border-radius: 30px;
+    border-radius: 0px;
     transition: all 0.3s ease;
 }
 .nav-menu ul li a.active{
     color: var(--skin-color);
 }
 .nav-menu ul li a:after{
-    border-radius: 30px;
+    border-radius: 0px;
 }
 .nav-menu .copyright-text{
     position: absolute;
@@ -653,7 +654,7 @@ img{
     margin: 0 5px 10px;
     cursor: pointer;
     padding: 5px 10px;
-    border-radius: 30px;
+    border-radius: 0px;
     transition: all 0.3s ease;
     font-size: 16px;
     color: var(--text-black-600);
@@ -897,7 +898,7 @@ img{
     display: inline-block;
     margin: 0 5px 10px;
     padding: 5px 10px;
-    border-radius: 30px;
+    border-radius: 0px;
     cursor: pointer;
     font-weight: 500;
     color: var(--text-black-600);
@@ -1333,16 +1334,16 @@ img{
 .contact-section .input-group{
     margin: 0 0 25px;
     transition: all 0.3s ease;
-    border-radius: 30px;
+    border-radius: 0px;
 }
 .contact-section .input-group:after{
-    border-radius: 30px;
+    border-radius: 0px;
 }
 .contact-section .input-group .input-control{
     height: 45px;
     display: block;
     width: 100%;
-    border-radius: 30px;
+    border-radius: 0px;
     border: none;
     background-color: transparent;
     font-size: 16px;

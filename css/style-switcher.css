@@ -23,13 +23,13 @@
     margin-right: 15px;
     cursor: pointer;
     transition: all 0.3s ease;
-    border-radius: 50%;
+    border-radius: 0%;
 }
 .style-switcher .s-icon i{
     line-height: 40px;
 }
 .style-switcher .s-icon:after{
-    border-radius: 50%;
+    border-radius: 0%;
 }
 .style-switcher .style-switcher-toggler{
     top: 0;
